@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "About | The Agency Oklahoma",
+  title: "About Us | The Agency Oklahoma",
 };
 
 export default function AboutPage() {

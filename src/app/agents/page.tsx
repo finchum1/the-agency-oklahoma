@@ -1,10 +1,18 @@
 import type { Metadata } from "next";
-import Image from "next/image";
-import { agents } from "@/lib/data";
+import { agents } from "@/lib/agents";
 
 export const metadata: Metadata = {
   title: "Our Agents | The Agency Oklahoma",
 };
+
+function initials(name: string) {
+  return name
+    .split(" ")
+    .map((part) => part[0])
+    .join("")
+    .slice(0, 2)
+    .toUpperCase();
+}
 
 export default function AgentsPage() {
   return (
@@ -17,23 +25,17 @@ export default function AgentsPage() {
           Meet The Agents
         </h1>
         <p className="mx-auto mt-4 max-w-xl px-6 text-white/70">
-          Local expertise, global reach. Get to know the people behind The
-          Agency Oklahoma.
+          {agents.length} licensed agents serving Oklahoma City, Edmond,
+          Nichols Hills, and the surrounding metro.
         </p>
       </section>
 
       <section className="mx-auto max-w-7xl px-6 py-20 lg:px-10">
-        <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
           {agents.map((agent) => (
-            <div key={agent.id} className="group">
-              <div className="relative aspect-[4/5] overflow-hidden bg-[#e8e6df]">
-                <Image
-                  src={agent.image}
-                  alt={agent.name}
-                  fill
-                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-                  className="object-cover grayscale transition-all duration-500 group-hover:grayscale-0"
-                />
+            <div key={agent.slug} className="group border border-black/10 p-6">
+              <div className="flex aspect-square w-20 items-center justify-center bg-[#0d0d0c] font-serif text-2xl text-[#c7a86a]">
+                {initials(agent.name)}
               </div>
               <div className="mt-5">
                 <h3 className="font-serif text-xl text-[#0d0d0c]">
@@ -45,17 +47,25 @@ export default function AgentsPage() {
                 <p className="mt-3 text-sm leading-relaxed text-[#1a1a1a]/70">
                   {agent.bio}
                 </p>
-                <div className="mt-4 flex flex-col gap-1 text-sm text-[#1a1a1a]/70">
-                  <a href={`tel:${agent.phone}`} className="hover:text-[#c7a86a]">
-                    {agent.phone}
-                  </a>
-                  <a
-                    href={`mailto:${agent.email}`}
-                    className="hover:text-[#c7a86a]"
-                  >
-                    {agent.email}
-                  </a>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  {agent.specialties.map((tag) => (
+                    <span
+                      key={tag}
+                      className="border border-black/10 px-2 py-1 text-[10px] uppercase tracking-[0.1em] text-[#1a1a1a]/60"
+                    >
+                      {tag}
+                    </span>
+                  ))}
                 </div>
+                <p className="mt-4 text-[11px] uppercase tracking-[0.1em] text-[#1a1a1a]/40">
+                  OK License #{agent.license}
+                </p>
+                <a
+                  href="/contact"
+                  className="mt-2 inline-block text-xs font-medium uppercase tracking-[0.15em] text-[#0d0d0c] hover:text-[#c7a86a]"
+                >
+                  Contact {agent.name.split(" ")[0]} &rarr;
+                </a>
               </div>
             </div>
           ))}
