@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -19,13 +20,15 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-[#0d0d0c]/95 backdrop-blur border-b border-white/10">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-10">
-        <Link href="/" className="flex flex-col leading-none">
-          <span className="font-serif text-2xl tracking-[0.15em] text-white">
-            THE AGENCY
-          </span>
-          <span className="mt-1 text-[11px] tracking-[0.4em] text-[#c7a86a]">
-            OKLAHOMA
-          </span>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/logo.avif"
+            alt="The Agency Oklahoma"
+            width={219}
+            height={99}
+            priority
+            className="h-12 w-auto"
+          />
         </Link>
 
         <nav className="hidden items-center gap-8 lg:flex">

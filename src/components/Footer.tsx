@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
@@ -6,12 +7,13 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-16 lg:px-10">
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
           <div>
-            <span className="font-serif text-xl tracking-[0.15em] text-white">
-              THE AGENCY
-            </span>
-            <span className="mt-1 block text-[10px] tracking-[0.4em] text-[#c7a86a]">
-              OKLAHOMA
-            </span>
+            <Image
+              src="/logo.avif"
+              alt="The Agency Oklahoma"
+              width={219}
+              height={99}
+              className="h-12 w-auto"
+            />
             <p className="mt-4 text-sm leading-relaxed">
               Oklahoma City&apos;s boutique real estate brokerage for
               distinctive homes and the people who love them.
