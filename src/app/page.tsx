@@ -55,27 +55,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Stats */}
-      <section className="border-b border-black/10 bg-white">
-        <div className="mx-auto grid max-w-6xl grid-cols-2 gap-8 px-6 py-14 text-center sm:grid-cols-4 lg:px-10">
-          {[
-            ["$480M+", "Sold Volume"],
-            ["18", "Years in OKC"],
-            ["1,200+", "Homes Sold"],
-            ["24", "Agents"],
-          ].map(([stat, label]) => (
-            <div key={label}>
-              <p className="font-serif text-3xl text-[#0d0d0c] sm:text-4xl">
-                {stat}
-              </p>
-              <p className="mt-2 text-xs uppercase tracking-[0.15em] text-[#1a1a1a]/50">
-                {label}
-              </p>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* Featured Listings */}
       <section className="mx-auto max-w-7xl px-6 py-24 lg:px-10">
         <div className="flex flex-col items-center text-center">
