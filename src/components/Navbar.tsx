@@ -56,10 +56,10 @@ export default function Navbar() {
             </Link>
           ))}
           <a
-            href="tel:+14055550100"
+            href="tel:+14052163693"
             className="ml-2 rounded-sm bg-[#e61d25] px-4 py-2 text-xs font-medium uppercase tracking-[0.15em] text-white transition-colors hover:bg-white hover:text-[#e61d25]"
           >
-            (405) 555-0100
+            405-216-3693
           </a>
         </nav>
 

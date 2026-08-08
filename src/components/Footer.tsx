@@ -48,18 +48,18 @@ export default function Footer() {
               Contact
             </h3>
             <ul className="mt-4 space-y-3 text-sm">
-              <li>6208 N Western Ave, Oklahoma City, OK 73118</li>
+              <li>112 S Broadway, Edmond, OK 73034</li>
               <li>
-                <a href="tel:+14055550100" className="hover:text-white">
-                  (405) 555-0100
+                <a href="tel:+14052163693" className="hover:text-white">
+                  405-216-3693
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:hello@theagencyoklahoma.com"
+                  href="mailto:wayne.kirby@theagencyre.com"
                   className="hover:text-white"
                 >
-                  hello@theagencyoklahoma.com
+                  wayne.kirby@theagencyre.com
                 </a>
               </li>
             </ul>

@@ -21,18 +21,18 @@ export default function ContactPage() {
               Visit Our Office
             </h2>
             <div className="mt-6 space-y-4 text-sm text-[#1a1a1a]/70">
-              <p>6208 N Western Ave<br />Oklahoma City, OK 73118</p>
+              <p>112 S Broadway<br />Edmond, OK 73034</p>
               <p>
-                <a href="tel:+14055550100" className="hover:text-[#0d0d0c]">
-                  (405) 555-0100
+                <a href="tel:+14052163693" className="hover:text-[#0d0d0c]">
+                  405-216-3693
                 </a>
               </p>
               <p>
                 <a
-                  href="mailto:hello@theagencyoklahoma.com"
+                  href="mailto:wayne.kirby@theagencyre.com"
                   className="hover:text-[#0d0d0c]"
                 >
-                  hello@theagencyoklahoma.com
+                  wayne.kirby@theagencyre.com
                 </a>
               </p>
               <p>Monday &ndash; Friday: 9am &ndash; 6pm<br />Saturday: 10am &ndash; 4pm</p>
