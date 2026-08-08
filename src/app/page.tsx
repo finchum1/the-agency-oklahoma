@@ -21,7 +21,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d0c] via-[#0d0d0c]/30 to-[#0d0d0c]/40" />
 
         <div className="relative z-10 mx-auto flex max-w-4xl flex-col items-center px-6 text-center text-white">
-          <p className="text-xs uppercase tracking-[0.4em] text-[#c7a86a]">
+          <p className="text-xs uppercase tracking-[0.4em] text-[#e61d25]">
             Oklahoma City &middot; Edmond &middot; Nichols Hills
           </p>
           <h1 className="mt-6 font-serif text-4xl leading-tight sm:text-5xl lg:text-6xl">
@@ -42,16 +42,16 @@ export default function Home() {
             />
             <button
               type="submit"
-              className="bg-[#0d0d0c] px-8 py-3 text-xs font-medium uppercase tracking-[0.2em] text-white transition-colors hover:bg-[#c7a86a] hover:text-[#0d0d0c]"
+              className="bg-[#0d0d0c] px-8 py-3 text-xs font-medium uppercase tracking-[0.2em] text-white transition-colors hover:bg-[#e61d25] hover:text-[#0d0d0c]"
             >
               Search Homes
             </button>
           </form>
 
           <div className="mt-8 flex gap-8 text-xs uppercase tracking-[0.15em] text-white/70">
-            <Link href="/buy" className="hover:text-[#c7a86a]">Buy a Home</Link>
-            <Link href="/sell" className="hover:text-[#c7a86a]">Sell a Home</Link>
-            <Link href="/agents" className="hover:text-[#c7a86a]">Meet Our Agents</Link>
+            <Link href="/buy" className="hover:text-[#e61d25]">Buy a Home</Link>
+            <Link href="/sell" className="hover:text-[#e61d25]">Sell a Home</Link>
+            <Link href="/agents" className="hover:text-[#e61d25]">Meet Our Agents</Link>
           </div>
         </div>
       </section>
@@ -80,7 +80,7 @@ export default function Home() {
       {/* Featured Listings */}
       <section className="mx-auto max-w-7xl px-6 py-24 lg:px-10">
         <div className="flex flex-col items-center text-center">
-          <p className="text-xs uppercase tracking-[0.4em] text-[#c7a86a]">
+          <p className="text-xs uppercase tracking-[0.4em] text-[#e61d25]">
             Featured Properties
           </p>
           <h2 className="mt-4 font-serif text-3xl text-[#0d0d0c] sm:text-4xl">
@@ -108,7 +108,7 @@ export default function Home() {
       <section className="bg-[#0d0d0c] py-24 text-white">
         <div className="mx-auto max-w-7xl px-6 lg:px-10">
           <div className="flex flex-col items-center text-center">
-            <p className="text-xs uppercase tracking-[0.4em] text-[#c7a86a]">
+            <p className="text-xs uppercase tracking-[0.4em] text-[#e61d25]">
               Where We Work
             </p>
             <h2 className="mt-4 font-serif text-3xl sm:text-4xl">
@@ -154,7 +154,7 @@ export default function Home() {
         <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
           <Link
             href="/contact"
-            className="bg-[#0d0d0c] px-8 py-3 text-xs font-medium uppercase tracking-[0.2em] text-white transition-colors hover:bg-[#c7a86a] hover:text-[#0d0d0c]"
+            className="bg-[#0d0d0c] px-8 py-3 text-xs font-medium uppercase tracking-[0.2em] text-white transition-colors hover:bg-[#e61d25] hover:text-[#0d0d0c]"
           >
             Contact Us
           </Link>

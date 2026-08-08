@@ -8,7 +8,7 @@ export default function ContactPage() {
   return (
     <div>
       <section className="border-b border-black/10 bg-[#0d0d0c] py-20 text-center text-white">
-        <p className="text-xs uppercase tracking-[0.4em] text-[#c7a86a]">
+        <p className="text-xs uppercase tracking-[0.4em] text-[#e61d25]">
           Get In Touch
         </p>
         <h1 className="mt-4 font-serif text-4xl sm:text-5xl">Contact Us</h1>
@@ -23,14 +23,14 @@ export default function ContactPage() {
             <div className="mt-6 space-y-4 text-sm text-[#1a1a1a]/70">
               <p>6208 N Western Ave<br />Oklahoma City, OK 73118</p>
               <p>
-                <a href="tel:+14055550100" className="hover:text-[#c7a86a]">
+                <a href="tel:+14055550100" className="hover:text-[#e61d25]">
                   (405) 555-0100
                 </a>
               </p>
               <p>
                 <a
                   href="mailto:hello@theagencyoklahoma.com"
-                  className="hover:text-[#c7a86a]"
+                  className="hover:text-[#e61d25]"
                 >
                   hello@theagencyoklahoma.com
                 </a>
@@ -69,7 +69,7 @@ export default function ContactPage() {
             />
             <button
               type="submit"
-              className="mt-6 bg-[#0d0d0c] px-8 py-3 text-xs font-medium uppercase tracking-[0.2em] text-white hover:bg-[#c7a86a] hover:text-[#0d0d0c]"
+              className="mt-6 bg-[#0d0d0c] px-8 py-3 text-xs font-medium uppercase tracking-[0.2em] text-white hover:bg-[#e61d25] hover:text-[#0d0d0c]"
             >
               Send Message
             </button>

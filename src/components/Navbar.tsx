@@ -36,10 +36,10 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-10">
         <Link href="/" className="flex items-center">
           <Image
-            src="/logo.avif"
+            src="/logo-red.png"
             alt="The Agency Oklahoma"
-            width={219}
-            height={99}
+            width={1194}
+            height={524}
             priority
             className="h-12 w-auto"
           />
@@ -50,14 +50,14 @@ export default function Navbar() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-xs font-medium uppercase tracking-[0.15em] text-white/80 transition-colors hover:text-[#c7a86a]"
+              className="text-xs font-medium uppercase tracking-[0.15em] text-white/80 transition-colors hover:text-[#e61d25]"
             >
               {link.label}
             </Link>
           ))}
           <a
             href="tel:+14055550100"
-            className="ml-2 rounded-sm border border-[#c7a86a] px-4 py-2 text-xs font-medium uppercase tracking-[0.15em] text-[#c7a86a] transition-colors hover:bg-[#c7a86a] hover:text-[#0d0d0c]"
+            className="ml-2 rounded-sm border border-[#e61d25] px-4 py-2 text-xs font-medium uppercase tracking-[0.15em] text-[#e61d25] transition-colors hover:bg-[#e61d25] hover:text-[#0d0d0c]"
           >
             (405) 555-0100
           </a>

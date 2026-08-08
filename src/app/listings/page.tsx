@@ -10,7 +10,7 @@ export default function ListingsPage() {
   return (
     <div>
       <section className="border-b border-black/10 bg-[#0d0d0c] py-20 text-center text-white">
-        <p className="text-xs uppercase tracking-[0.4em] text-[#c7a86a]">
+        <p className="text-xs uppercase tracking-[0.4em] text-[#e61d25]">
           Properties
         </p>
         <h1 className="mt-4 font-serif text-4xl sm:text-5xl">
@@ -45,7 +45,7 @@ export default function ListingsPage() {
             <option>Western Avenue</option>
             <option>Deer Creek</option>
           </select>
-          <button className="bg-[#0d0d0c] px-8 py-3 text-xs font-medium uppercase tracking-[0.2em] text-white hover:bg-[#c7a86a] hover:text-[#0d0d0c]">
+          <button className="bg-[#0d0d0c] px-8 py-3 text-xs font-medium uppercase tracking-[0.2em] text-white hover:bg-[#e61d25] hover:text-[#0d0d0c]">
             Filter
           </button>
         </div>

@@ -8,10 +8,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <Image
-              src="/logo.avif"
+              src="/logo-red.png"
               alt="The Agency Oklahoma"
-              width={219}
-              height={99}
+              width={1194}
+              height={524}
               className="h-12 w-auto"
             />
             <p className="mt-4 text-sm leading-relaxed">
@@ -25,10 +25,10 @@ export default function Footer() {
               Explore
             </h3>
             <ul className="mt-4 space-y-3 text-sm">
-              <li><Link href="/listings" className="hover:text-[#c7a86a]">Listings</Link></li>
-              <li><Link href="/neighborhoods" className="hover:text-[#c7a86a]">Neighborhoods</Link></li>
-              <li><Link href="/buy" className="hover:text-[#c7a86a]">Buy</Link></li>
-              <li><Link href="/sell" className="hover:text-[#c7a86a]">Sell</Link></li>
+              <li><Link href="/listings" className="hover:text-[#e61d25]">Listings</Link></li>
+              <li><Link href="/neighborhoods" className="hover:text-[#e61d25]">Neighborhoods</Link></li>
+              <li><Link href="/buy" className="hover:text-[#e61d25]">Buy</Link></li>
+              <li><Link href="/sell" className="hover:text-[#e61d25]">Sell</Link></li>
             </ul>
           </div>
 
@@ -37,9 +37,9 @@ export default function Footer() {
               Company
             </h3>
             <ul className="mt-4 space-y-3 text-sm">
-              <li><Link href="/agents" className="hover:text-[#c7a86a]">Our Agents</Link></li>
-              <li><Link href="/about" className="hover:text-[#c7a86a]">About Us</Link></li>
-              <li><Link href="/contact" className="hover:text-[#c7a86a]">Contact</Link></li>
+              <li><Link href="/agents" className="hover:text-[#e61d25]">Our Agents</Link></li>
+              <li><Link href="/about" className="hover:text-[#e61d25]">About Us</Link></li>
+              <li><Link href="/contact" className="hover:text-[#e61d25]">Contact</Link></li>
             </ul>
           </div>
 
@@ -50,14 +50,14 @@ export default function Footer() {
             <ul className="mt-4 space-y-3 text-sm">
               <li>6208 N Western Ave, Oklahoma City, OK 73118</li>
               <li>
-                <a href="tel:+14055550100" className="hover:text-[#c7a86a]">
+                <a href="tel:+14055550100" className="hover:text-[#e61d25]">
                   (405) 555-0100
                 </a>
               </li>
               <li>
                 <a
                   href="mailto:hello@theagencyoklahoma.com"
-                  className="hover:text-[#c7a86a]"
+                  className="hover:text-[#e61d25]"
                 >
                   hello@theagencyoklahoma.com
                 </a>

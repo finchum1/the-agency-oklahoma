@@ -96,7 +96,7 @@ export default async function ListingDetail({
               />
               <button
                 type="submit"
-                className="bg-[#0d0d0c] px-8 py-3 text-xs font-medium uppercase tracking-[0.2em] text-white hover:bg-[#c7a86a] hover:text-[#0d0d0c]"
+                className="bg-[#0d0d0c] px-8 py-3 text-xs font-medium uppercase tracking-[0.2em] text-white hover:bg-[#e61d25] hover:text-[#0d0d0c]"
               >
                 Request Info
               </button>
@@ -107,7 +107,7 @@ export default async function ListingDetail({
         <div className="mt-16">
           <Link
             href="/listings"
-            className="text-xs font-medium uppercase tracking-[0.2em] text-[#0d0d0c] hover:text-[#c7a86a]"
+            className="text-xs font-medium uppercase tracking-[0.2em] text-[#0d0d0c] hover:text-[#e61d25]"
           >
             &larr; Back to All Listings
           </Link>
