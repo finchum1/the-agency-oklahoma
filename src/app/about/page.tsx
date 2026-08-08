@@ -9,7 +9,7 @@ export default function AboutPage() {
   return (
     <div>
       <section className="border-b border-black/10 bg-[#0d0d0c] py-20 text-center text-white">
-        <p className="text-xs uppercase tracking-[0.4em] text-[#e61d25]">
+        <p className="text-xs uppercase tracking-[0.4em] text-white">
           About Us
         </p>
         <h1 className="mt-4 font-serif text-4xl sm:text-5xl">

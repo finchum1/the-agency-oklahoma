@@ -8,7 +8,7 @@ export default function ContactPage() {
   return (
     <div>
       <section className="border-b border-black/10 bg-[#0d0d0c] py-20 text-center text-white">
-        <p className="text-xs uppercase tracking-[0.4em] text-[#e61d25]">
+        <p className="text-xs uppercase tracking-[0.4em] text-white">
           Get In Touch
         </p>
         <h1 className="mt-4 font-serif text-4xl sm:text-5xl">Contact Us</h1>
@@ -23,14 +23,14 @@ export default function ContactPage() {
             <div className="mt-6 space-y-4 text-sm text-[#1a1a1a]/70">
               <p>6208 N Western Ave<br />Oklahoma City, OK 73118</p>
               <p>
-                <a href="tel:+14055550100" className="hover:text-[#e61d25]">
+                <a href="tel:+14055550100" className="hover:text-[#0d0d0c]">
                   (405) 555-0100
                 </a>
               </p>
               <p>
                 <a
                   href="mailto:hello@theagencyoklahoma.com"
-                  className="hover:text-[#e61d25]"
+                  className="hover:text-[#0d0d0c]"
                 >
                   hello@theagencyoklahoma.com
                 </a>

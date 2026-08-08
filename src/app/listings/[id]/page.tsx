@@ -107,7 +107,7 @@ export default async function ListingDetail({
         <div className="mt-16">
           <Link
             href="/listings"
-            className="text-xs font-medium uppercase tracking-[0.2em] text-[#0d0d0c] hover:text-[#e61d25]"
+            className="text-xs font-medium uppercase tracking-[0.2em] text-[#0d0d0c] hover:underline"
           >
             &larr; Back to All Listings
           </Link>

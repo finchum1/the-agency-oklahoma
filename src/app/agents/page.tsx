@@ -18,7 +18,7 @@ export default function AgentsPage() {
   return (
     <div>
       <section className="border-b border-black/10 bg-[#0d0d0c] py-20 text-center text-white">
-        <p className="text-xs uppercase tracking-[0.4em] text-[#e61d25]">
+        <p className="text-xs uppercase tracking-[0.4em] text-white">
           Our Team
         </p>
         <h1 className="mt-4 font-serif text-4xl sm:text-5xl">
@@ -34,14 +34,14 @@ export default function AgentsPage() {
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
           {agents.map((agent) => (
             <div key={agent.slug} className="group border border-black/10 p-6">
-              <div className="flex aspect-square w-20 items-center justify-center bg-[#0d0d0c] font-serif text-2xl text-[#e61d25]">
+              <div className="flex aspect-square w-20 items-center justify-center bg-[#0d0d0c] font-serif text-2xl text-white">
                 {initials(agent.name)}
               </div>
               <div className="mt-5">
                 <h3 className="font-serif text-xl text-[#0d0d0c]">
                   {agent.name}
                 </h3>
-                <p className="mt-1 text-xs uppercase tracking-[0.15em] text-[#e61d25]">
+                <p className="mt-1 text-xs uppercase tracking-[0.15em] text-[#0d0d0c]">
                   {agent.title}
                 </p>
                 <p className="mt-3 text-sm leading-relaxed text-[#1a1a1a]/70">
@@ -62,7 +62,7 @@ export default function AgentsPage() {
                 </p>
                 <a
                   href="/contact"
-                  className="mt-2 inline-block text-xs font-medium uppercase tracking-[0.15em] text-[#0d0d0c] hover:text-[#e61d25]"
+                  className="mt-2 inline-block text-xs font-medium uppercase tracking-[0.15em] text-[#0d0d0c] hover:underline"
                 >
                   Contact {agent.name.split(" ")[0]} &rarr;
                 </a>

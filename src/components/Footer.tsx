@@ -25,10 +25,10 @@ export default function Footer() {
               Explore
             </h3>
             <ul className="mt-4 space-y-3 text-sm">
-              <li><Link href="/listings" className="hover:text-[#e61d25]">Listings</Link></li>
-              <li><Link href="/neighborhoods" className="hover:text-[#e61d25]">Neighborhoods</Link></li>
-              <li><Link href="/buy" className="hover:text-[#e61d25]">Buy</Link></li>
-              <li><Link href="/sell" className="hover:text-[#e61d25]">Sell</Link></li>
+              <li><Link href="/listings" className="hover:text-white">Listings</Link></li>
+              <li><Link href="/neighborhoods" className="hover:text-white">Neighborhoods</Link></li>
+              <li><Link href="/buy" className="hover:text-white">Buy</Link></li>
+              <li><Link href="/sell" className="hover:text-white">Sell</Link></li>
             </ul>
           </div>
 
@@ -37,9 +37,9 @@ export default function Footer() {
               Company
             </h3>
             <ul className="mt-4 space-y-3 text-sm">
-              <li><Link href="/agents" className="hover:text-[#e61d25]">Our Agents</Link></li>
-              <li><Link href="/about" className="hover:text-[#e61d25]">About Us</Link></li>
-              <li><Link href="/contact" className="hover:text-[#e61d25]">Contact</Link></li>
+              <li><Link href="/agents" className="hover:text-white">Our Agents</Link></li>
+              <li><Link href="/about" className="hover:text-white">About Us</Link></li>
+              <li><Link href="/contact" className="hover:text-white">Contact</Link></li>
             </ul>
           </div>
 
@@ -50,14 +50,14 @@ export default function Footer() {
             <ul className="mt-4 space-y-3 text-sm">
               <li>6208 N Western Ave, Oklahoma City, OK 73118</li>
               <li>
-                <a href="tel:+14055550100" className="hover:text-[#e61d25]">
+                <a href="tel:+14055550100" className="hover:text-white">
                   (405) 555-0100
                 </a>
               </li>
               <li>
                 <a
                   href="mailto:hello@theagencyoklahoma.com"
-                  className="hover:text-[#e61d25]"
+                  className="hover:text-white"
                 >
                   hello@theagencyoklahoma.com
                 </a>

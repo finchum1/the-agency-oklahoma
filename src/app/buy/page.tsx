@@ -36,7 +36,7 @@ export default function BuyPage() {
           className="object-cover opacity-50"
         />
         <div className="relative z-10 px-6">
-          <p className="text-xs uppercase tracking-[0.4em] text-[#e61d25]">
+          <p className="text-xs uppercase tracking-[0.4em] text-white">
             Buy
           </p>
           <h1 className="mt-4 font-serif text-4xl sm:text-5xl">
@@ -53,7 +53,7 @@ export default function BuyPage() {
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {steps.map((step, i) => (
             <div key={step.title}>
-              <span className="font-serif text-3xl text-[#e61d25]">
+              <span className="font-serif text-3xl text-[#0d0d0c]">
                 {String(i + 1).padStart(2, "0")}
               </span>
               <h3 className="mt-3 font-serif text-lg text-[#0d0d0c]">
